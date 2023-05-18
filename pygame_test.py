@@ -16,7 +16,7 @@ key_notes = {
     pygame.K_j: 784    # G5
 }
 
-# Generate a square wave sample for a given frequency
+# Generate a sine wave sample for a given frequency
 def generate_sample(frequency):
     sample_rate = pygame.mixer.get_init()[0]
     duration = 1  # Adjust this to control the note duration
